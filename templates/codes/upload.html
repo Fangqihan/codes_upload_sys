@@ -1,0 +1,20 @@
+{% extends 'codes/index.html' %}
+
+
+{% block  content%}
+
+<form method="post" enctype=multipart/form-data novalidate>
+    <h1>上传代码</h1>
+    <hr>
+    <div class="form-group">
+        <input type="file" id="exampleInputFile" class="form-control" name="file">
+    </div>
+    {% if error %}
+    <span style="color: red;font-size: 13px">{{error}}</span>
+    {% endif %}
+
+    <button type="submit" class="btn btn-block">确定上传</button>
+
+</form>
+
+{% endblock %}

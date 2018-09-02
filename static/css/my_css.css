@@ -1,0 +1,54 @@
+.navbar-header{
+    width: 500px;
+}
+.main{
+}
+
+.navbar-inverse .navbar-nav>li>a {
+   color: #f8f8f8;
+   font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sidebar{
+    background: #2C2C2C;
+}
+.sidebar a:link,.sidebar a:hover{
+    color: whitesmoke;
+    font-size: 16px;
+}
+tbody{
+    color: gray;
+}
+tbody a{
+    color: gray;
+}
+
+.col-lg-4 {
+    width: 30%;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px
+}
+
+.desc{
+    float: right;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.menu_active{
+    background-color: #4b9de3;
+}
+
+
+
+
