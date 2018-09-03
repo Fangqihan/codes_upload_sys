@@ -2,163 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7319a7d0-1b3a-42ec-8bea-4e2d9d80ded5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/ie10-viewport-bug-workaround.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/my_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/offcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/codes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/codes/my_codes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/codes/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/codes/users.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/kingadmin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0002_auto_20180704_1950.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0003_remove_student_student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0004_auto_20180705_0003.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0005_auto_20180705_0004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0006_auto_20180705_1135.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0007_auto_20180709_2327.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0008_auto_20180709_2328.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0009_auto_20180716_0946.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0010_auto_20180716_1927.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0011_auto_20180716_2113.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0012_auto_20180716_2126.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0013_auto_20180716_2131.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0014_auto_20180717_1009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0015_auto_20180717_2118.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0016_contracttemplate_class_grade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0017_remove_contracttemplate_class_grade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0018_auto_20180719_0023.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0019_auto_20180720_2302.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0020_auto_20180720_2309.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0021_auto_20180721_1328.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0022_auto_20180722_1118.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/templatetags/crm_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/1/rbac-model╔Φ╝╞1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/10/xadmin║≤╠¿╜τ├µ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/11/╨▐╕─╚¿╧▐┤φ╬≤1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/12/CRM_fqh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/15/ModelForm╠φ╝╙╤∙╩╜.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/2/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/21/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/3/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/4/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/9/rbac-model╔Φ╝╞1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/kingadmin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0002_auto_20180704_1950.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0003_remove_student_student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0004_auto_20180705_0003.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0005_auto_20180705_0004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0006_auto_20180705_1135.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0007_auto_20180709_2327.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0008_auto_20180709_2328.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0009_auto_20180716_0946.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0010_auto_20180716_1927.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0011_auto_20180716_2113.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0012_auto_20180716_2126.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0013_auto_20180716_2131.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0014_auto_20180717_1009.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0015_auto_20180717_2118.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0016_contracttemplate_class_grade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0017_remove_contracttemplate_class_grade.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0018_auto_20180719_0023.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0019_auto_20180720_2302.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0020_auto_20180720_2309.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0021_auto_20180721_1328.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0022_auto_20180722_1118.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/templatetags/crm_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/1/rbac-model╔Φ╝╞1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/10/xadmin║≤╠¿╜τ├µ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/11/╨▐╕─╚¿╧▐┤φ╬≤1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/12/CRM_fqh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/15/ModelForm╠φ╝╙╤∙╩╜.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/2/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/21/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/3/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/4/justinbieber.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/9/rbac-model╔Φ╝╞1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/app_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/base_king_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/form_handle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/sites.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/ie10-viewport-bug-workaround.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/holder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/ie-emulation-modes-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/ie10-viewport-bug-workaround.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/add_obj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/app_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/change_info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/del_obj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/login_back.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/table_objects_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/table_objects_list_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templatetags/my_tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/codes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/kingadmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0002_auto_20180704_1950.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0003_remove_student_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0004_auto_20180705_0003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0005_auto_20180705_0004.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0006_auto_20180705_1135.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0007_auto_20180709_2327.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0008_auto_20180709_2328.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0009_auto_20180716_0946.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0010_auto_20180716_1927.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0011_auto_20180716_2113.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0012_auto_20180716_2126.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0013_auto_20180716_2131.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0014_auto_20180717_1009.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0015_auto_20180717_2118.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0016_contracttemplate_class_grade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0017_remove_contracttemplate_class_grade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0018_auto_20180719_0023.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0019_auto_20180720_2302.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0020_auto_20180720_2309.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0021_auto_20180721_1328.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/0022_auto_20180722_1118.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/templatetags/crm_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/1/rbac-model╔Φ╝╞1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/10/xadmin║≤╠¿╜τ├µ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/11/╨▐╕─╚¿╧▐┤φ╬≤1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/12/CRM_fqh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/15/ModelForm╠φ╝╙╤∙╩╜.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/2/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/21/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/3/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/4/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/upload_files/enrollment_data/9/rbac-model╔Φ╝╞1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/44b63ae7-80f5-4a56-a90e-cf02f003b86a/crm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/kingadmin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0002_auto_20180704_1950.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0003_remove_student_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0004_auto_20180705_0003.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0005_auto_20180705_0004.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0006_auto_20180705_1135.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0007_auto_20180709_2327.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0008_auto_20180709_2328.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0009_auto_20180716_0946.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0010_auto_20180716_1927.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0011_auto_20180716_2113.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0012_auto_20180716_2126.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0013_auto_20180716_2131.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0014_auto_20180717_1009.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0015_auto_20180717_2118.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0016_contracttemplate_class_grade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0017_remove_contracttemplate_class_grade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0018_auto_20180719_0023.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0019_auto_20180720_2302.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0020_auto_20180720_2309.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0021_auto_20180721_1328.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/0022_auto_20180722_1118.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/templatetags/crm_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/1/rbac-model╔Φ╝╞1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/10/xadmin║≤╠¿╜τ├µ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/11/╨▐╕─╚¿╧▐┤φ╬≤1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/12/CRM_fqh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/15/ModelForm╠φ╝╙╤∙╩╜.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/2/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/21/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/3/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/4/justinbieber.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/upload_files/enrollment_data/9/rbac-model╔Φ╝╞1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a0db1aa9-a181-48dc-b37a-62c2dee78990/crm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/app_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/base_king_admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/form_handle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/sites.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/ie10-viewport-bug-workaround.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/ie-emulation-modes-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/static/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/add_obj.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/app_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/change_info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/del_obj.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/login_back.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/table_objects_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templates/kingadmin/table_objects_list_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/templatetags/my_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/b63f8064-defa-4a39-84b3-1c056866c650/king_admin/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/codes.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/codes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -168,26 +144,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CodeUP$test.coverage" NAME="test Coverage Results" MODIFIED="1535908196355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CodeUP$CodeUP.coverage" NAME="CodeUP Coverage Results" MODIFIED="1535908325616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CodeUP$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1535875342459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodeUP$test.coverage" NAME="test Coverage Results" MODIFIED="1535942227553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodeUP$manage.coverage" NAME="manage Coverage Results" MODIFIED="1535945960790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rbac_sys" />
+    <SUITE FILE_PATH="coverage/CodeUP$CodeUP.coverage" NAME="CodeUP Coverage Results" MODIFIED="1535946553075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodeUP$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1535947319707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#201#215#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="codes.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="codes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/codes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+            <state relative-caret-position="54">
+              <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
               <folding>
                 <element signature="e#0#88#0" expanded="true" />
               </folding>
@@ -195,24 +175,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="account.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="342">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/flask/Lib/site-packages/flask/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-16">
+              <caret line="2305" selection-start-line="2305" selection-end-line="2305" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="shutil.pyi" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/shutil.pyi">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
+            <state relative-caret-position="1836">
               <caret line="114" column="62" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
             </state>
           </provider>
@@ -221,7 +220,7 @@
       <file leaf-file-name="shutil.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/shutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="16866">
               <caret line="942" column="4" selection-start-line="942" selection-start-column="4" selection-end-line="942" selection-end-column="4" />
             </state>
           </provider>
@@ -246,7 +245,14 @@
       <find>unpack</find>
       <find>_unpack</find>
       <find>_unpack_zi</find>
+      <find>f1</find>
+      <find>get_users</find>
+      <find>get_roles</find>
+      <find>add_user</find>
     </findStrings>
+    <replaceStrings>
+      <replace>sql_execute</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -257,19 +263,21 @@
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/my_codes.html" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/account/login.html" />
-        <option value="$PROJECT_DIR$/views/account.py" />
         <option value="$PROJECT_DIR$/static/css/dashboard.css" />
         <option value="$PROJECT_DIR$/templates/codes/index.html" />
         <option value="$PROJECT_DIR$/templates/codes/users.html" />
         <option value="$PROJECT_DIR$/templates/codes/upload.html" />
         <option value="$PROJECT_DIR$/templates/codes/my_codes.html" />
-        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/views/codes.py" />
+        <option value="$PROJECT_DIR$/views/account.py" />
+        <option value="$PROJECT_DIR$/rbac/models.py" />
+        <option value="$PROJECT_DIR$/rbac/views.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -282,13 +290,15 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="249" />
     <option name="y" value="42" />
     <option name="width" value="932" />
     <option name="height" value="860" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -300,11 +310,6 @@
             <path>
               <item name="CodeUP" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeUP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeUP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeUP" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeUP" type="b2602c69:ProjectViewProjectNode" />
@@ -323,20 +328,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\CodeUP" />
-      <recent name="C:\Users\Administrator\Desktop\CodeUP\templates\codes" />
-      <recent name="C:\Users\Administrator\Desktop\CodeUP\templates\account" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\CodeUP\templates" />
       <recent name="C:\Users\Administrator\Desktop\CodeUP" />
       <recent name="C:\Users\Administrator\Desktop\CodeUP\uploads" />
       <recent name="C:\Users\Administrator\Desktop\CodeUP\templates\codes" />
       <recent name="C:\Users\Administrator\Desktop\CodeUP\static" />
-      <recent name="C:\Users\Administrator\Desktop\CodeUP\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\CodeUP" />
+      <recent name="C:\Users\Administrator\Desktop\CodeUP\templates\codes" />
+      <recent name="C:\Users\Administrator\Desktop\CodeUP\templates\account" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -351,7 +356,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CodeUP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rbac_sys" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rbac_sys/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CodeUP" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -403,11 +427,13 @@
       <item itemvalue="Flask server.CodeUP" />
       <item itemvalue="Flask server.Flask (app.py)" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.manage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
         <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Python.manage" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -433,16 +459,16 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32971507" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993573" weight="0.22222222" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3283582" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49820143" visible="true" weight="0.14395887" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993573" visible="true" weight="0.27272728" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33564493" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49820143" visible="true" weight="0.14203085" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283582" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50179857" side_tool="true" weight="0.13303342" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4322493" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24830393" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -459,58 +485,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rbac/views.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="26" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/codes/users.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/codes/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/codes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1332">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/codes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -592,13 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -733,24 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flask/Lib/site-packages/flask/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="2328" selection-start-line="2328" selection-end-line="2328" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="863" selection-start-line="863" selection-end-line="863" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -763,15 +727,8 @@
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/shutil.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
+        <state relative-caret-position="1836">
           <caret line="114" column="62" selection-start-line="114" selection-start-column="62" selection-end-line="114" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -784,27 +741,108 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/shutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="16866">
           <caret line="942" column="4" selection-start-line="942" selection-start-column="4" selection-end-line="942" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
+    <entry file="file://$USER_HOME$/flask/Lib/site-packages/DBUtils/PooledDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="276" column="8" selection-start-line="276" selection-start-column="8" selection-end-line="276" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac_sys/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="450">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/templates/rbac/edit_role.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/flask/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="2305" selection-start-line="2305" selection-end-line="2305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rbac/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#541#587#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/codes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+        <state relative-caret-position="54">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding>
             <element signature="e#0#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#201#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>

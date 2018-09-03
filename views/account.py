@@ -1,5 +1,7 @@
 from flask import Blueprint, render_template, request,session, redirect
 from settings import DevelopmentConfig
+from utils import sql_execute
+
 
 
 ac = Blueprint('ac', __name__)
@@ -15,10 +17,8 @@ def login():
 
         # 进入数据库验证用户信息
         sql = 'select id, nick_name from user_profile where name = "%s" and password = "%s"' % (username,password)
-        DevelopmentConfig.CURSOR.execute(sql)
-        ret = DevelopmentConfig.CURSOR.fetchall()
-        print(ret)
-        ret = {'user':username, "data":ret}
+        rets = sql_execute(sql)
+        ret = {'user':username, "data":rets}
         if ret:
             session['user'] = username
             session['id'] = ret['data'][0][0]
