@@ -1,27 +1,124 @@
 {% extends 'codes/index.html' %}
 
-
 {% block content %}
 <h1>用户列表页</h1>
 <hr>
-    <a href="/upload"><button class="btn btn-success"><span class="glyphicon glyphicon-plus"
+
+     <a href="/upload"><button class="btn btn-success"><span class="glyphicon glyphicon-plus"
                                                                 aria-hidden="true">&nbsp;代码上传</span></button></a>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <td>ID</td>
-            <td>用户名</td>
-            <td>选项</td>
-        </tr>
-    </thead>
-    <tbody>
-        {% for item in data %}
-        <tr>
-            <td>{{ item.0 }}</td>
-            <td>{{ item.1 }}</td>
-            <td><a href="/users/{{ item.0 }}"><button class="btn btn-info">查看代码记录</button></a></td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+    <hr>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+          <span hidden id="users">{{ data.users }}</span>
+          <span hidden id="total">{{ data.total }}</span>
+          <span hidden id="month">{{ data.week }}</span>
+          <span hidden id="week">{{ data.month }}</span>
+      </div>
+    </div>
+    <hr>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>用户名</td>
+                <td>选项</td>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in data.ret %}
+            <tr>
+                <td>{{ item.0 }}</td>
+                <td>{{ item.1 }}</td>
+                <td><a href="/users/{{ item.0 }}"><button class="btn btn-info">查看上传记录</button></a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
 {% endblock %}
+
+
+{% block custom_js %}
+    <script src="/static/js/jquery2.14.js"></script>
+    <script src="/static/js/highcharts.js"></script>
+    <script language="JavaScript">
+        $(document).ready(function() {
+        var users = JSON.parse($('#users').text());
+        console.log(users, typeof users);
+        var total_lines = JSON.parse($('#total').text());
+        console.log(total_lines, typeof total_lines);
+        var week_lines = JSON.parse($('#week').text());
+        console.log(week_lines, typeof week_lines);
+        var month_lines = JSON.parse($('#month').text());
+        console.log(month_lines, typeof month_lines);
+
+        var chart = {
+          type: 'column'
+        };
+
+        var title = {
+          text: ''
+        };
+
+        var subtitle = {
+          text: '用户代码上传总量一览-v1.0'
+        };
+
+        var xAxis = {
+          categories: users,
+          crosshair: false
+        };
+
+        var yAxis = {
+          min: 0,
+          title: {
+             text: '代码行数'
+          }
+        };
+
+        var tooltip = {
+        };
+
+        var plotOptions = {
+          column: {
+             pointPadding: 0.2,
+             borderWidth: 0,
+              dataLabels: {
+                inside: true
+            }
+          }
+        };
+
+        var credits = {
+          enabled: false
+        };
+
+        var series= [
+           {name: '本周', data: week_lines},
+           {name: '本月', data: month_lines},
+           {name: '总计', data: total_lines},
+        ];
+
+        var json = {};
+        json.chart = chart;
+        json.title = title;
+        json.subtitle = subtitle;
+        json.tooltip = tooltip;
+        json.xAxis = xAxis;
+        json.yAxis = yAxis;
+        json.series = series;
+        json.plotOptions = plotOptions;
+        json.credits = credits;
+        $('#container').highcharts(json);
+    });
+    </script>
+{% endblock %}
+
+
+
+
+
+
+

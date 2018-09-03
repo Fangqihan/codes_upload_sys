@@ -8,6 +8,5 @@ def sql_execute(sql, type='search'):
     ret = cur.fetchall()
     if type=='insert':
         conn.commit()
-    print(ret)
     conn.close()
     return ret

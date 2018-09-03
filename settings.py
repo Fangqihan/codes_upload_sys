@@ -9,6 +9,7 @@ class Base(object):
 import pymysql
 from DBUtils.PooledDB import PooledDB
 
+
 class DevelopmentConfig(Base):
     """开发环境配置"""
     DEBUG = True

@@ -20,10 +20,40 @@ def wrapper(func):
 @wrapper
 def user_list():
     # 进入数据库验证用户信息
-    sql = "select id, name from user_profile"
+    sql = 'select * from codes_upload'
     ret = sql_execute(sql)
-    return render_template('codes/users.html',data=ret)
 
+    # 1、查询用户的所有上传总量
+    sql1 = "select u.name, sum(c.lines_num) as lines_count from codes_upload c inner join user_profile u on c.user = u.id group by c.user"
+    ret_total = sql_execute(sql1)
+    print('ret_total',ret_total)
+    users = []
+    total_counts = []
+    import json
+    for item in ret_total:
+        users.append(item[0])
+        total_counts.append(int(item[1]))
+    users = json.dumps(users)
+
+    # 2、查询本周的所有用户的上传总量
+    sql2 = 'select u.name, sum(c.lines_num) as lines_count from codes_upload c inner join user_profile u on c.user = u.id  where YEARWEEK(upload_time)=YEARWEEK(now()) group by c.user'
+    ret_week = sql_execute(sql2)
+    print('ret_week',ret_week)
+    week_count = []
+    import json
+    for item in ret_week:
+        week_count.append(int(item[1]))
+
+    # 3、查询本月的数据
+    sql3 = 'select u.name, sum(c.lines_num) as lines_count from codes_upload c inner join user_profile u on c.user = u.id where DATE_FORMAT(upload_time, "%Y-%m")= DATE_FORMAT(now(), "%Y-%m") group by c.user'
+    ret_month = sql_execute(sql3)
+    print('ret_month',ret_month)
+    month_count = []
+    for item in ret_month:
+        month_count.append(int(item[1]))
+
+    ret = {'total':total_counts, 'week':week_count, 'month':month_count, 'users':users, 'ret':ret}
+    return render_template('codes/users.html',data=ret)
 
 
 @co.route('/users/<int:nid>', endpoint='my_uploads')
@@ -32,13 +62,22 @@ def my_uploads(nid):
     """我的上传记录页面"""
     sql = "select id, lines_num,user,upload_time from codes_upload where user=%d" % nid
     ret = sql_execute(sql)
-    # print(ret)
+
+    categories = []
+    for item in ret:
+        categories.append(str(item[3]))
+    import json
+    categories=json.dumps(categories)
+    print('categories>>>>>>>>>>>>>>',categories, type(categories))
+
+    lines_count=[]
+    for item in ret:
+        lines_count.append(item[1])
 
     sql1 = 'select id,nick_name from user_profile where id=%s' % nid
     ret1 = sql_execute(sql1)
-    ret = {'user':ret1, 'data':ret}
+    ret = {'user':ret1, 'data':ret, 'categories':categories,'lines_count': lines_count}
     return render_template('codes/my_codes.html', data=ret)
-
 
 
 def allowed_file(filename):

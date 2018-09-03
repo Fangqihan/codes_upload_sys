@@ -2,26 +2,101 @@
 
 
 {% block content %}
+    <h1>上传记录</h1>
+    <hr>
 
-<h1>上传记录</h1>
-<hr>
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <td>ID</td>
-            <td>行数</td>
-            <td>日期</td>
-        </tr>
-    </thead>
-    <tbody>
-        {% for item in data.data %}
-        <tr>
-            <td>{{ item.0 }}</td>
-            <td>{{ item.1 }}</td>
-            <td>{{ item.3 }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+    {#    <table class="table table-striped">#}
+    {#        <thead>#}
+    {#            <tr>#}
+    {#                <td>ID</td>#}
+    {#                <td>行数</td>#}
+    {#                <td>日期</td>#}
+    {#            </tr>#}
+    {#        </thead>#}
+    {#        <tbody>#}
+    {#            {% for item in data.data %}#}
+    {#            <tr>#}
+    {#                <td>{{ item.0 }}</td>#}
+    {#                <td>{{ item.1 }}</td>#}
+    {#                <td>{{ item.3 }}</td>#}
+    {#            </tr>#}
+    {#            {% endfor %}#}
+    {#        </tbody>#}
+    {#    </table>#}
 
+    <!--提交记录的折线图-->
+    <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+    <span id="cate" hidden>{{ data.categories }}</span>
+
+{% endblock %}
+
+
+{% block custom_js %}
+
+<script src="/static/js/jquery2.14.js"></script>
+<script src="/static/js/highcharts.js"></script>
+
+<script language="JavaScript">
+    var dates = JSON.parse($('#cate').text());
+    console.log('dates', dates, typeof dates);
+
+    $(document).ready(function() {
+    var title = {
+      text: ''
+    };
+
+    var subtitle = {
+      text: '代码记录'
+    };
+
+    var xAxis = {
+        title: {
+          text: '日期'
+       },
+        categories: dates  // 填充日期
+    };
+
+    var yAxis = {
+        type: 'logarithmic',
+       title: {
+          text: '代码行数'
+       },
+
+       plotLines: [{
+          value: 0,
+          width: 1,
+          color: '#808080'
+       }]
+    };
+
+    var tooltip = {
+       valueSuffix: '行'
+    };
+
+    var legend = {
+       layout: 'vertical',
+       align: 'right',
+       verticalAlign: 'middle',
+       borderWidth: 0
+    };
+
+    var series =  [
+       {
+          name: '{{ session.user }}',
+          data: {{ data.lines_count }} // 和日期对应的代码行数
+       },
+    ];
+
+    var json = {};
+
+    json.title = title;
+    json.subtitle = subtitle;
+    json.xAxis = xAxis;
+    json.yAxis = yAxis;
+    json.tooltip = tooltip;
+    json.legend = legend;
+    json.series = series;
+    $('#container').highcharts(json);
+    });
+</script>
 {% endblock %}

@@ -1,0 +1,68 @@
+
+<div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+
+<script src="/static/js/jquery2.14.js"></script>
+<script src="/static/js/highcharts.js"></script>
+
+<script language="JavaScript">
+$(document).ready(function() {
+    var title = {
+      text: ''
+    };
+
+    var subtitle = {
+      text: '代码记录'
+    };
+
+    var xAxis = {
+        title: {
+          text: '日期'
+       },
+        categories: ['2018-9-1', '2018-9-2', '2018-9-3']  // 填充日期
+    };
+
+    var yAxis = {
+       title: {
+          text: '代码行数'
+       },
+
+       plotLines: [{
+          value: 0,
+          width: 0.5,
+          color: '#808080'
+       }]
+    };
+
+    var tooltip = {
+       valueSuffix: '行'
+    };
+
+    var legend = {
+       layout: 'vertical',
+       align: 'right',
+       verticalAlign: 'middle',
+       borderWidth: 0
+    };
+
+    var series =  [
+       {
+          name: 'alex',
+          data: [30, 500, 2810]  // 和日期对应的代码行数
+       },
+    ];
+
+    var json = {};
+
+    json.title = title;
+    json.subtitle = subtitle;
+    json.xAxis = xAxis;
+    json.yAxis = yAxis;
+    json.tooltip = tooltip;
+    json.legend = legend;
+    json.series = series;
+    $('#container').highcharts(json);
+});
+
+</script>
+
+

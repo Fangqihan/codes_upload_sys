@@ -2,10 +2,7 @@ from flask import Blueprint, render_template, request,session, redirect
 from settings import DevelopmentConfig
 from utils import sql_execute
 
-
-
 ac = Blueprint('ac', __name__)
-
 
 @ac.route('/login', methods=["POST", "GET"])
 def login():
@@ -32,4 +29,12 @@ def login():
 def logout():
     session.pop('user',None)
     return redirect('/login')
+
+
+@ac.route('/chart',methods=['GET'])
+def test_page():
+    return render_template('codes/block_chart.html')
+
+
+
 
