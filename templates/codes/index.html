@@ -53,14 +53,22 @@ td{
       <div class="row">
         <div class="col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-              <li><a href="{{ url_for('co.user_list') }}" style="color: white"
+
+                {% if '/users' in session.permission_urls %}
+                <li><a href="{{ url_for('co.user_list') }}" style="color: white"
                      class="{% if request.path == '/users' %}active{% endif %}">用户列表</a></li>
 
-              <li><a href="{{ url_for('co.my_uploads', nid=session.id) }}" style="color: white;"
-                     class="">我的上传记录</a></li>
+                 {% endif %}
 
+                {% if '/my_uploads' in session.permission_urls %}
+              <li><a href="{{ url_for('co.my_uploads') }}" style="color: white;"
+                     class="">我的上传记录</a></li>
+                {% endif %}
+
+                {% if '/upload' in session.permission_urls %}
               <li><a href="{{ url_for('co.upload_code') }}" style="color: white;"
                      class="{% if request.path =='/upload' %}active{% endif %}">上传代码</a></li>
+                {% endif %}
           </ul>
 
         </div>

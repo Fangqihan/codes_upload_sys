@@ -4,38 +4,17 @@
 <h1>用户列表页</h1>
 <hr>
 
-     <a href="/upload"><button class="btn btn-success"><span class="glyphicon glyphicon-plus"
-                                                                aria-hidden="true">&nbsp;代码上传</span></button></a>
-    <hr>
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+      <span hidden id="users">{{ data.users }}</span>
+      <span hidden id="total">{{ data.total }}</span>
+      <span hidden id="month">{{ data.week }}</span>
+      <span hidden id="week">{{ data.month }}</span>
+  </div>
+</div>
+<hr>
 
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
-          <span hidden id="users">{{ data.users }}</span>
-          <span hidden id="total">{{ data.total }}</span>
-          <span hidden id="month">{{ data.week }}</span>
-          <span hidden id="week">{{ data.month }}</span>
-      </div>
-    </div>
-    <hr>
-    <table class="table table-striped">
-        <thead>
-            <tr>
-                <td>ID</td>
-                <td>用户名</td>
-                <td>选项</td>
-            </tr>
-        </thead>
-        <tbody>
-            {% for item in data.ret %}
-            <tr>
-                <td>{{ item.0 }}</td>
-                <td>{{ item.1 }}</td>
-                <td><a href="/users/{{ item.0 }}"><button class="btn btn-info">查看上传记录</button></a></td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
 
 {% endblock %}
 

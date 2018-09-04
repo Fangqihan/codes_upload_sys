@@ -10,3 +10,7 @@ def sql_execute(sql, type='search'):
         conn.commit()
     conn.close()
     return ret
+
+
+
+

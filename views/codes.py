@@ -12,6 +12,14 @@ def wrapper(func):
     def inner(*args, **kwargs):
         if not session.get('is_login'):
             return redirect('/login')
+
+        if request.path in ['/login', '/register']:
+            return func(*args, **kwargs)
+
+        permissions = session['permission_urls']
+
+        if request.path not in permissions:
+            return render_template('codes/page_404.html')
         return func(*args, **kwargs)
     return inner
 
@@ -56,10 +64,12 @@ def user_list():
     return render_template('codes/users.html',data=ret)
 
 
-@co.route('/users/<int:nid>', endpoint='my_uploads')
+# @co.route('/users/<int:nid>', endpoint='my_uploads')
+@co.route('/my_uploads', endpoint='my_uploads')
 @wrapper
-def my_uploads(nid):
+def my_uploads():
     """我的上传记录页面"""
+    nid = session['id']
     sql = "select id, lines_num,user,upload_time from codes_upload where user=%d" % nid
     ret = sql_execute(sql)
 
@@ -96,7 +106,6 @@ import uuid
 @co.route('/upload',methods=['POST', 'GET'], endpoint='upload_code')
 @wrapper
 def upload_code():
-
     error = None
     if request.method == 'POST':
         # 1、上传的文件不能为空
@@ -144,8 +153,13 @@ def upload_code():
             error = '今天代码已上传'
 
         else:error = '文件必须为zip格式'
-
     return render_template('codes/upload.html', error=error)
 
+
+
+@co.route('/admin', endpoint='admin', methods=['GET',])
+# @wrapper
+def admin_home():
+    return render_template('admin_home.html')
 
 
